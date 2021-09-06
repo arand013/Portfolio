@@ -5,7 +5,7 @@ function Nav(props) {
   const {
     categories = [],
     setCurrentCategory,
-    currentCategory,
+    contactSelected,
     currentCategory,
     setContactSelected,
   } = props;
