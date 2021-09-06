@@ -1,6 +1,8 @@
 import React from 'react';
 import coverImage from '../../assets/cover/Electric-Spiral.jpeg';
+
 function About() {
+  
   return (
     <section className="my-5">
       <h1 id="about" >Hello World</h1>
