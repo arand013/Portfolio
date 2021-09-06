@@ -5,19 +5,24 @@ const PhotoList = ({ category }) => {
   const [photos] = useState([
     {
       name: 'Run Buddy',
-      category: 'work',
+      category: 'projects',
       description: 'Projects and Past experience',
     },
     {
       name: 'PassWord Generator',
-      category: 'work',
+      category: 'projects',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
     },
     {
       name: 'Auto-Technician',
-      category: 'work',
+      category: 'projects',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-    }
+    },
+    {
+      name: 'Resume',
+      category: 'resume',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+    },
   ]);
   const currentPhotos = photos.filter((photo) => photo.category === category);
 
