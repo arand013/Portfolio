@@ -2,8 +2,8 @@ import React from 'react';
 import PhotoList from '../PhotoList';
 import { capitalizeFirstLetter } from '../../utils/helpers';
 
-function Projects({ currentCategory }) {
-  const { name, description } = currentCategory;
+function Projects(props) {
+  const { currentCategory } = props;
   return (
     <section>
       <h1 data-testid="h1tag">{capitalizeFirstLetter(name)}</h1>
