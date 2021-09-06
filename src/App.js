@@ -19,10 +19,10 @@ function App() {
         currentCategory={currentCategory}
       ></Nav>
       <main>
-        <div>
+        
           <About></About>
-          <Projects></Projects>
-        </div>
+          <Projects currentCategory={currentCategory}></Projects>
+      
       </main>
     </div>
   );

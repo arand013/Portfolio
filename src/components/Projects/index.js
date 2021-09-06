@@ -1,24 +1,16 @@
-import React from "react";
+import React from 'react';
+import PhotoList from '../PhotoList';
 import { capitalizeFirstLetter } from '../../utils/helpers';
-import photo from "../../assets/images/run.png"
 
-function Projects(props) {
-  const currentCategory = {
-    name: 'Work', description: 'Projects and Past experience' 
-  };
+function Projects({ currentCategory }) {
+  const { name, description } = currentCategory;
   return (
     <section>
-      <h1>{capitalizeFirstLetter(currentCategory.name)}</h1>
-      <p>{currentCategory.name}</p>
-      <div className="flex-row">
-          <img
-            src={photo}
-            alt="Projects"
-            className="img-thumbnail mx-1"
-           
-          />
-      </div>
+      <h1 data-testid="h1tag">{capitalizeFirstLetter(name)}</h1>
+      <p>{description}</p>
+      <PhotoList  />
     </section>
   );
 }
+
 export default Projects;
