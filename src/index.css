@@ -5,11 +5,11 @@ main {
   padding: 50px 30px;
 }
 :root {
-  --primary: #8c54ff;
-  --secondary: #F3A847;
-  --tertiary: #B12704;
-  --light: #fafafa;
-  --dark: #000000;
+  --primary: #c1121f;
+  --secondary: #ba181b;
+  --tertiary: #6b705c;
+  --light: #d3cece;
+  --dark: #161a1d;
   --darker: #111111;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
@@ -175,7 +175,7 @@ textarea {
 .flex-row {
   display: flex;
   flex-wrap: wrap;
-  margin: 40px
+  margin: 20px
 }
 
 .space-between {

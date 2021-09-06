@@ -7,17 +7,17 @@ const PhotoList = ({ category }) => {
 
   const [photos] = useState([
     {
+      name: 'Auto-Technician',
+      category: 'projects',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+    },
+    {
       name: 'Run Buddy',
       category: 'projects',
       description: 'Projects and Past experience',
     },
     {
-      name: 'PassWord Generator',
-      category: 'projects',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-    },
-    {
-      name: 'Auto-Technician',
+      name: 'Github',
       category: 'projects',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
     },
