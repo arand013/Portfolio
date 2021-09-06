@@ -4,7 +4,7 @@ function Footer() {
 
     return (
         <footer>
-        <h2>© 2021 Alexander Aranda. All Rights Reserved.</h2>
+        <h6>© 2021 Alexander Aranda. All Rights Reserved.</h6>
     </footer>
     );
   }
