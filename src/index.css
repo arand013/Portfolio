@@ -294,3 +294,21 @@ a {
 .navActive {
   color: var(--secondary);
 }
+
+.social-icons {
+  display: inline-block;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.footer {
+  bottom: 0;
+  padding-top: 10px ;
+  padding-bottom: 8px;
+}
+.footer-copywright {
+  text-align: center 
+}
+
+.footer-body {
+  text-align: center 
+}

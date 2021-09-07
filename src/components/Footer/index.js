@@ -10,8 +10,9 @@ import { FaLinkedinIn } from "react-icons/fa";
 function Footer() {
 
     return (
-        <footer>
-            <h2>© 2021 Alexander Aranda. All Rights Reserved.</h2>
+        <footer className="footer container fluid">
+            <div clasnName="row">
+            <h2 className="footer-copywright col-md-4">© 2021 Alexander Aranda. All Rights Reserved.</h2>
             
                 <ul className="footer-icons">
                     <li className="social-icons">
@@ -46,7 +47,7 @@ function Footer() {
                     </li>
                     <li className="social-icons">
                         <a
-                            href="https://www.instagram.com/"
+                            href="https://www.instagram.com/aranda.a_1/"
                             style={{ color: "white" }}
                             target="_blank"
                             rel="noopener noreferrer"
@@ -55,6 +56,7 @@ function Footer() {
                         </a>
                     </li>
                 </ul>
+            </div>
         </footer>
     );
 }
