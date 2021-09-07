@@ -27,6 +27,11 @@ const PhotoList = ({ category }) => {
       description: 'Live URL: https://enigmatic-garden-76168.herokuapp.com Github: https://github.com/arand013/The-Tech-Spot',
     },
     {
+      name: 'Employee Tracker System',
+      category: 'projects',
+      description: 'Demo Video: https://drive.google.com/file/d/1XsJXpi8bwNel1nLO6y0vbIPjEJ6Tr8mz/view Github: https://github.com/arand013/employee-tracker-system',
+    },
+    {
       name: 'Resume',
       category: 'resume',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
