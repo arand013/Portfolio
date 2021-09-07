@@ -22,6 +22,11 @@ const PhotoList = ({ category }) => {
       description: 'Live URL https://arand013.github.io/PasswordGenerator/  Github: https://github.com/arand013/PasswordGenerator',
     },
     {
+      name: 'The Tech Spot',
+      category: 'projects',
+      description: 'Live URL: https://enigmatic-garden-76168.herokuapp.com Github: https://github.com/arand013/The-Tech-Spot',
+    },
+    {
       name: 'Resume',
       category: 'resume',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
