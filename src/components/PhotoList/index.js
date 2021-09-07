@@ -9,17 +9,17 @@ const PhotoList = ({ category }) => {
     {
       name: 'Auto-Technician',
       category: 'projects',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      description: 'Live URL https://new-gen-mechanics.herokuapp.com/  Github: https://github.com/arand013/Auto-Technician-project-2',
     },
     {
       name: 'Run Buddy',
       category: 'projects',
-      description: 'Projects and Past experience',
+      description: 'Live URL https://arand013.github.io/Run-Buddy/  Github: https://github.com/arand013/Run-Buddy',
     },
     {
-      name: 'Github',
+      name: 'Password Generator',
       category: 'projects',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      description: 'Live URL https://arand013.github.io/PasswordGenerator/  Github: https://github.com/arand013/PasswordGenerator',
     },
     {
       name: 'Resume',

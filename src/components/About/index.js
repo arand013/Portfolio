@@ -1,11 +1,11 @@
 import React from 'react';
-import coverImage from '../../assets/cover/Electric-Spiral.jpeg';
+import coverImage from '../../assets/cover/ME-PICTURE.jpeg';
 
 function About() {
 
   return (
     <section className="my-5">
-      <img src={coverImage} className="my-2" style={{ width: "100%" }} alt="cover" />
+      <img src={coverImage} className="my-2" style={{ width: "20.5%" }} alt="cover" />
       <div className="my-2">
         <p>
           Hello, this is my Portfolio! Please take a look at my recent work.
