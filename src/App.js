@@ -9,7 +9,7 @@ import Footer from './components/Footer';
 function App() {
   const [categories] = useState([
     { name: 'projects', description: 'Projects and Past experience' },
-    { name: 'resume', description: 'Link to Resume here' },
+    { name: 'resume', description: 'Click to see resume here' },
   ]);
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);

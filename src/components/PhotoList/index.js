@@ -34,7 +34,7 @@ const PhotoList = ({ category }) => {
     {
       name: 'Weather Dashboard',
       category: 'projects',
-      dexcription: 'Live URL:  https://arand013.github.io/Weather-Dashboard/ Github: https://github.com/arand013/Weather-Dashboard'
+      description: 'Live URL: https://arand013.github.io/Weather-Dashboard/ Github: https://github.com/arand013/Weather-Dashboard'
     },
     {
       name: 'Resume',
