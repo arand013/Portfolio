@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Nav from "./components/Nav";
+import Terminal from './components/Terminal';
 import About from "./components/About";
 import Projects from "./components/Projects";
 import ContactForm from './components/Contact';
@@ -28,7 +29,7 @@ function App() {
       <main>
         {!contactSelected ? (
           <>
-
+            <Terminal></Terminal>
             <About></About>
             <Projects currentCategory={currentCategory}></Projects>
           </>

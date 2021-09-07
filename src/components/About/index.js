@@ -8,7 +8,7 @@ function About() {
       <img src={coverImage} className="my-2" style={{ width: "20.5%" }} alt="cover" />
       <div className="my-2">
         <p>
-          Hello, this is my Portfolio! Please take a look at my recent work.
+          This is my Portfolio! Please take a look at my recent work.
           Feel free to reach out by phone or email.
 
           I am a Full Stack Web Developer leveraging an opportunity to build a more creative user experience on

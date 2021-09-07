@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { capitalizeFirstLetter } from '../../utils/helpers';
+import coverImage from '../../assets/cover/Logo.jpg';
 
 function Nav(props) {
   const {
@@ -16,11 +17,9 @@ function Nav(props) {
 
   return (
     <header className="flex-row ">
-      <h2>
-        <a data-testid="link" href="/">
-          Alexander Aranda
-        </a>
-      </h2>
+
+      <img src={coverImage} className="logo" style={{ width: "9%" }} alt="logo" />
+      
       <nav>
         <ul className="flex-row">
           <li className="mx-2">
