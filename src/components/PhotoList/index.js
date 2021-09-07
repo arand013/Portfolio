@@ -33,13 +33,18 @@ const PhotoList = ({ category }) => {
     },
     {
       name: 'Weather Dashboard',
-      category: 'project',
+      category: 'projects',
       dexcription: 'Live URL:  https://arand013.github.io/Weather-Dashboard/ Github: https://github.com/arand013/Weather-Dashboard'
     },
     {
       name: 'Resume',
       category: 'resume',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      description: 'Technical Skills',
+    },
+    {
+      name: 'Resume',
+      category: 'resume',
+      description: 'Experience',
     },
   ]);
   const currentPhotos = photos.filter((photo) => photo.category === category);
