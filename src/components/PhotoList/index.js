@@ -32,6 +32,11 @@ const PhotoList = ({ category }) => {
       description: 'Demo Video: https://drive.google.com/file/d/1XsJXpi8bwNel1nLO6y0vbIPjEJ6Tr8mz/view Github: https://github.com/arand013/employee-tracker-system',
     },
     {
+      name: 'Weather Dashboard',
+      category: 'project',
+      dexcription: 'Live URL:  https://arand013.github.io/Weather-Dashboard/ Github: https://github.com/arand013/Weather-Dashboard'
+    },
+    {
       name: 'Resume',
       category: 'resume',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
