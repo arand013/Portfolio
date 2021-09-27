@@ -1,29 +1,44 @@
 import React from 'react';
-import coverImage from '../../assets/cover/ME-PICTURE.jpeg';
 
-function About() {
+function ContactIcons() {
+  const contactLinks = [
+    {
+      "name": "email",
+      "url": "mailto:vlane0593@gmail.com",
+      "classes": "far fa-envelope"
+    },
+    {
+      "name": "linkedin",
+      "url": "https://www.linkedin.com/in/vanessa-lane/",
+      "classes": "fab fa-linkedin"
+    },
+    {
+      "name": "github",
+      "url": "https://github.com/vanessalane",
+      "classes": "fab fa-github"
+    },
+    {
+      "name": "instagram",
+      "url": "https://www.instagram.com/vl.pottery/",
+      "classes": "fab fa-instagram"
+    },
+  ]
 
   return (
-    <section className="my-5">
-      <img src={coverImage} className="my-2" style={{ width: "20.5%" }} alt="cover" />
-      <div className="my-2">
-        <p>
-          This is my Portfolio! Please take a look at my recent work.
-          Feel free to reach out by phone or email.
-
-          I am a Full Stack Web Developer leveraging an opportunity to build a more creative user experience on
-          the web. Working towards earingn a certificate in full stack web development from the University of
-          California Los Angeles, developing skills such as Javascript, CSS and React.js. To build user responsive
-          web applications. In a project involving a team of three developers, we built a dynamic database system
-          along with a polished UI web-page. That now helps a local business owner to track their clients
-          appointments and deal with requests by sending technicians to appointments. In terms of my attitude I
-          have an ambitious outlook to work with industry leaders and group efforts to meet goals and over-deliver
-          on client expectations.
-
-        </p>
-      </div>
-    </section>
-  );
+    <div className="mt-2 mt-lg-0">
+      {contactLinks.map((contactLink) => {
+        return (
+          <a href={contactLink.url}
+            key={contactLink.name}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="m-3">
+            <span><i className={contactLink.classes}></i></span>
+          </a>
+        )
+      })}
+    </div>
+  )
 }
 
-export default About;
+export default ContactIcons;
