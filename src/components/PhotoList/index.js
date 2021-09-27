@@ -12,9 +12,9 @@ const PhotoList = ({ category }) => {
       description: 'Live URL https://new-gen-mechanics.herokuapp.com/  Github: https://github.com/arand013/Auto-Technician-project-2',
     },
     {
-      name: 'Run Buddy',
+      name: 'Shuffle-Music-Finder',
       category: 'projects',
-      description: 'Live URL https://arand013.github.io/Run-Buddy/  Github: https://github.com/arand013/Run-Buddy',
+      description: 'Live URL https://shuffle-music.herokuapp.com/  Github: https://github.com/arand013/Music-Finder',
     },
     {
       name: 'Password Generator',
