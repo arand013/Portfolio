@@ -6,14 +6,14 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
 // import custom components
-import ContactIcons from '../About'
+import ContactIcons from '../ContactIcons'
 
 function Header() {
-  return(
+  return (
     <>
       <Navbar collapseOnSelect expand="lg" className="bg-light shadow">
         <LinkContainer to="/about">
-        <Navbar.Brand>Vanessa Lane</Navbar.Brand>
+          <Navbar.Brand>Alexander Aranda</Navbar.Brand>
         </LinkContainer>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

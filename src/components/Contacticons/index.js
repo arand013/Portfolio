@@ -4,22 +4,22 @@ function ContactIcons() {
   const contactLinks = [
     {
       "name": "email",
-      "url": "mailto:vlane0593@gmail.com",
+      "url": "alexanderaranda@ymail.com",
       "classes": "far fa-envelope"
     },
     {
       "name": "linkedin",
-      "url": "https://www.linkedin.com/in/vanessa-lane/",
+      "url": "https://www.linkedin.com/in/alexander-aranda1",
       "classes": "fab fa-linkedin"
     },
     {
       "name": "github",
-      "url": "https://github.com/vanessalane",
+      "url": "https://github.com/arand013",
       "classes": "fab fa-github"
     },
     {
       "name": "instagram",
-      "url": "https://www.instagram.com/vl.pottery/",
+      "url": "https://www.instagram.com/aranda.a_1/",
       "classes": "fab fa-instagram"
     },
   ]

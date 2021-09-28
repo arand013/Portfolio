@@ -6,7 +6,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 // import custom components
-import ContactIcons from '../About'
+import ContactIcons from '../ContactIcons'
 
 function Footer() {
   return (

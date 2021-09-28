@@ -27,9 +27,9 @@ function Contact() {
             <Col>
               <Container>
                 <h4>Contact Info</h4>
-                <p><span><i className="far fa-envelope pr-3"></i></span>vlane0593@gmail.com</p>
-                <p><span><i className="fab fa-github pr-3"></i></span> vanessalane</p>
-                <p><span><i className="fab fa-linkedin pr-3"></i></span> vanessa-lane</p>
+                <p><span><i className="far fa-envelope pr-3"></i></span>AlexanderAranda@ymail.com</p>
+                <p><span><i className="fab fa-github pr-3"></i></span> github.com/arand013</p>
+                <p><span><i className="fab fa-linkedin pr-3"></i></span> linkedin.com/in/alexander-aranda1</p>
               </Container>
             </Col>
             <Col sm={12} md={6} lg={8} className="pt-sm-4 pt-lg-0">

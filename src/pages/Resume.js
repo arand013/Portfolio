@@ -20,7 +20,7 @@ function Resume() {
     
           <Container className="py-5 d-flex flex-column flex-md-row justify-content-center align-items-center">
             <Button
-              href="https://drive.google.com/file/d/1qmccLqEyEsjv0kp6O7N79qJWtfALNGZi/view?usp=sharing"
+              href="https://docs.google.com/document/d/11uEDWugsQLOoHFRevHeRs-oQAUP_skktziJIklE5yKA/edit?usp=sharing"
               target="_blank"
               rel="noopener noreferrer">
                 View My Resume
@@ -47,7 +47,6 @@ function Resume() {
                 <Card.Body>
                   <h3>Backend Tech</h3>
                   <ul>
-                    <li>Python</li>
                     <li>SQL</li>
                     <li>APIs</li>
                     <li>REST</li>
@@ -57,6 +56,7 @@ function Resume() {
                     <li>Node</li>
                     <li>GraphQL</li>
                     <li>Django</li>
+                    <li>Postman, Insomnia</li>
                   </ul>
                 </Card.Body>
               </Card>
