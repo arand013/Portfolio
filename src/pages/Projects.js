@@ -11,6 +11,7 @@ import Project from '../components/Project';
 
 // import images for apps
 import shuffleImage from '../assets/image/shuffle_music.png'
+import autoImage from '../assets/image/auto-tech.png'
 
 
 function Projects() {
@@ -22,6 +23,14 @@ function Projects() {
       "imageSrc": shuffleImage,
       "repository": "https://github.com/arand013/Music-Finder",
       "deployed_app": "https://shuffle-music.herokuapp.com/"
+    },
+    {
+      "title": "New Gen Mechanic",
+      "description": "A MERN app for discovering and saving movies",
+      "key": "Auto-technician",
+      "imageSrc": autoImage,
+      "repository": "https://github.com/arand013/Auto-Technician-project-2",
+      "deployed_app": "https://new-gen-mechanics.herokuapp.com/"
     }
   ]
   return (
