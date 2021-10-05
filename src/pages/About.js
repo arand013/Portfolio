@@ -7,7 +7,7 @@ import Container from 'react-bootstrap/Container';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import me from '../assets/image/ME-PICTURE.jpg';
+import me from '../assets/image/Me-pic.jpg';
 
 function About() {
   return (
@@ -19,8 +19,8 @@ function About() {
               <Image 
                 src={me}
                 roundedCircle
-                width="300vw"
-                height="300vw"/>
+                width="410vw"
+                height="400vw"/>
             </Col>
             <Col className="pl-md-5">
                 <h1 className="display-4 text-center text-lg-left text-light p-0-lg pt-4">
