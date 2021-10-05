@@ -33,7 +33,7 @@ function Terminal(props) {
             <p><span>&#x203A;</span></p>
             <Typist.Delay ms={150}></Typist.Delay>
             <span className="pr-2 pr-md-4">&#x203A;</span>
-            <span className="text-light">Hello World, I am Alexander Aranda!();</span>
+            <span className="text-light">Hello Everyone, Welcome to my webpage!();</span>
           </Typist>
         </span>
         {showSuccess && 

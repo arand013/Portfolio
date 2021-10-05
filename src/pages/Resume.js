@@ -40,6 +40,8 @@ function Resume() {
                     <li>React</li>
                     <li>Bootstrap, Materialize, UIKit</li>
                     <li>jQuery</li>
+                    <li>Tailwind</li>
+                    <li>Handlebars</li>
                   </ul>
                 </Card.Body>
               </Card>
@@ -48,10 +50,11 @@ function Resume() {
                   <h3>Backend Tech</h3>
                   <ul>
                     <li>SQL</li>
-                    <li>APIs</li>
                     <li>REST</li>
+                    <li>APIs</li>
                     <li>MongoDB, Mongoose</li>
                     <li>MySQL, Sequelize</li>
+                    <li>JawDB</li> 
                     <li>Express</li>
                     <li>Node</li>
                     <li>GraphQL</li>
