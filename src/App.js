@@ -1,44 +1,41 @@
-import React, { useState } from 'react';
-import Nav from "./components/Nav";
-import Terminal from './components/Terminal';
-import About from "./components/About";
-import Projects from "./components/Projects";
-import ContactForm from './components/Contact';
+import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+
+// import custom components
+import Header from './components/Header';
+import About from './pages/About';
+import Projects from './pages/Projects';
+import Contact from './pages/Contact';
+import Resume from './pages/Resume';
+import Terminal from './pages/Terminal';
 import Footer from './components/Footer';
+import ScrollToTop from './components/ScrollToTop';
+import NoMatch from './pages/NoMatch';
 
+// import styles
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'react-typist/dist/Typist.css';
+import './App.css';
 
-function App() {
-  const [categories] = useState([
-    { name: 'projects', description: 'Projects and Past experience' },
-    { name: 'resume', description: 'Click to see resume here' },
-  ]);
-
-  const [currentCategory, setCurrentCategory] = useState(categories[0]);
-
-  const [contactSelected, setContactSelected] = useState(false);
-
+function App(){
   return (
-    <div>
-      <Nav
-        categories={categories}
-        setCurrentCategory={setCurrentCategory}
-        currentCategory={currentCategory}
-        contactSelected={contactSelected}
-        setContactSelected={setContactSelected}
-      ></Nav>
-      <main>
-        {!contactSelected ? (
-          <>
-            <Terminal></Terminal>
-            <About></About>
-            <Projects currentCategory={currentCategory}></Projects>
-          </>
-        ) : (
-          <ContactForm></ContactForm>
-        )}
-      </main>
-      <Footer></Footer>
-    </div>
+    <Router>
+      <ScrollToTop />
+      <div className="App">
+        <Header/>
+        <main>
+          <Switch>
+            <Route exact path="/Portfolio-" component={Terminal} />
+            <Route exact path="/about" component={About} />
+            <Route exact path="/projects" component={Projects} />
+            <Route exact path="/resume" component={Resume} />
+            <Route exact path="/contact" component={Contact} />
+            <Route path="/*" component={NoMatch} />
+          </Switch>
+        </main>
+        <Footer/>
+      </div>
+    </Router>
   );
 }
 

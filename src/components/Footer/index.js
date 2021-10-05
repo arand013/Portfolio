@@ -1,64 +1,28 @@
 import React from 'react';
-import {
-    AiFillGithub,
-    AiOutlineTwitter,
-    AiFillInstagram,
-} from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
 
+// import react-bootstrap components
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
+// import custom components
+import ContactIcons from '../ContactIcons'
 
 function Footer() {
-
-    return (
-        <footer className="footer container fluid">
-            <div clasnName="row">
-            <h2 className="footer-copywright col-md-4">© 2021 Alexander Aranda. All Rights Reserved.</h2>
-            
-                <ul className="footer-icons">
-                    <li className="social-icons">
-                        <a
-                            href="https://github.com/arand013"
-                            style={{ color: "white" }}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            <AiFillGithub />
-                        </a>
-                    </li>
-                    <li className="social-icons">
-                        <a
-                            href="https://twitter.com/"
-                            style={{ color: "white" }}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            <AiOutlineTwitter />
-                        </a>
-                    </li>
-                    <li className="social-icons">
-                        <a
-                            href="https://www.linkedin.com/in/alexander-aranda1/"
-                            style={{ color: "white" }}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            <FaLinkedinIn />
-                        </a>
-                    </li>
-                    <li className="social-icons">
-                        <a
-                            href="https://www.instagram.com/aranda.a_1/"
-                            style={{ color: "white" }}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            <AiFillInstagram />
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </footer>
-    );
+  return (
+    <footer className="bg-light p-3 shadow footer">
+      <Container>
+        <Row>
+          <Col sm={12} md={6} className="m-md-0">
+            <p className="m-md-0 copyright">© 2021 Alexander Aranda</p>
+          </Col>
+          <Col sm={12} md={6} className="d-flex justify-content-md-end justify-content-center">
+            <ContactIcons></ContactIcons>
+          </Col>
+        </Row>
+      </Container>
+    </footer>
+  )
 }
 
 export default Footer;

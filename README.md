@@ -1,6 +1,13 @@
-# Getting Started with Create React App
+# Introduction
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repo includes code for my portfolio built with React.
+
+Deployed app: http://arand013.github.io/Portfolio- 
+
+
+## Dev Info
+
+This project was bootstrapped with Create React App.
 
 ## Available Scripts
 

@@ -1,0 +1,86 @@
+main {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+    background-color: #f0e4c7;
+    font-family: 'Lato', sans-serif;
+    min-height: 90vh;
+  }
+  .row > div[class*='col-'] {
+    display: flex;
+    flex: 1 0 auto;
+  }
+  .copyright {
+    margin: auto;
+  }
+  .terminal {
+    height: 100vh;
+  }
+  
+  /* Start Text Styles */
+  a {
+    color: #5486c0;
+  }
+  a:hover, .form-message {
+    color: #dc5a26;
+    text-decoration: none;
+  }
+  h1, h3, h4 {
+    font-family: 'Roboto Mono', monospace;
+  }
+  h3, h4 {
+    color: #f08126;
+    padding-bottom: 16px;
+  }
+  ul.no-bullets {
+    list-style-type: none;
+  }
+  @media only screen and (max-width: 600px) {
+    .terminal h1 {
+      font-size: 8vw;
+    }
+  }
+  /* End Text Styles */
+  
+  /* Start Jumbotron Styles */
+  .jumbotron {
+    background-color: #5b8fa8;
+    color: #f0e4c7;
+  }
+  .jumbotron .col {
+    margin: auto;
+  }
+  .jumbotron h1, h2 {
+    text-align: center;
+  }
+  /* End Jumbotron Styles */
+  
+  /* Nav Styles */
+  .navbar-brand {
+    font-family: 'Roboto Mono', monospace;
+    padding-top: 0px;
+  }
+  /* End Nav Styles */
+  
+  /* Button Styles */
+  .btn {
+    background-color: #f3943c;
+    border: 3px solid #f3943c;
+  }
+  .btn:hover, .btn:active {
+    background-color: #c06f24;
+    border: 3px solid #c06f24;
+  }
+  /* End Button Styles */
+  
+  /* Card Animation Styles */
+  .card {
+    border-radius: 4px;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.2),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  }
+  .projects .card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+  }
+  /* End Card Animation Styles */
