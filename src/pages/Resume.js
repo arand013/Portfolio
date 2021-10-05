@@ -66,8 +66,7 @@ function Resume() {
             </CardDeck>
           </Container>
         </>
-      )
-      
+      ) 
     }
     
     export default Resume;
