@@ -18,7 +18,7 @@ function Projects() {
   const projects = [
     {
       "title": "Shuffle",
-      "description": "A MERN app for discovering and saving movies",
+      "description": "A MERN app for discovering and saving music",
       "key": "music-finder",
       "imageSrc": shuffleImage,
       "repository": "https://github.com/arand013/Music-Finder",
@@ -26,7 +26,7 @@ function Projects() {
     },
     {
       "title": "New Gen Mechanic",
-      "description": "A MERN app for discovering and saving movies",
+      "description": "An MVC app, designed for a business owner looking to reach an online audience to expand his growing business",
       "key": "Auto-technician",
       "imageSrc": autoImage,
       "repository": "https://github.com/arand013/Auto-Technician-project-2",
