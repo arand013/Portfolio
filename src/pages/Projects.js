@@ -12,7 +12,10 @@ import Project from '../components/Project';
 // import images for apps
 import shuffleImage from '../assets/image/shuffle_music.png'
 import autoImage from '../assets/image/auto-tech.png'
-
+import weatherImage from '../assets/image/weather-dash.png'
+import techImage from '../assets/image/tech-spot.png'
+import trackerImage from '../assets/image/tracker.png'
+import passImage from '../assets/image/password-gen.png'
 
 function Projects() {
   const projects = [
@@ -31,7 +34,39 @@ function Projects() {
       "imageSrc": autoImage,
       "repository": "https://github.com/arand013/Auto-Technician-project-2",
       "deployed_app": "https://new-gen-mechanics.herokuapp.com/"
-    }
+    },
+    {
+      "title": "Weather Dashboard",
+      "description": "An html, css and server side api webpage, that will generate weekly weather reports for cities across the world",
+      "imageSrc": weatherImage,
+      "key": "Weather Dashboard",
+      "repository": "https://github.com/arand013/Weather-Dashboard",
+      "deployed_app": " https://arand013.github.io/Weather-Dashboard/"
+    },
+    {
+      "title": "The Tech Spot",
+      "description": "An MVC app, created for a blogging and sharing post online",
+      "key": "Tech-Blog",
+      "imageSrc": techImage,
+      "repository": "https://github.com/arand013/The-Tech-Spot",
+      "deployed_app": "https://enigmatic-garden-76168.herokuapp.com"
+    },
+    {
+      "title": "Employee Tracker System",
+      "description": "An database template application, designed to add, update or delete a business's employee ",
+      "key": "Tracker-system",
+      "imageSrc": trackerImage,
+      "repository": "https://github.com/arand013/employee-tracker-system",
+      "deployed_app": "https://drive.google.com/file/d/1XsJXpi8bwNel1nLO6y0vbIPjEJ6Tr8mz/view"
+    },
+    {
+      "title": "Password Generator",
+      "description": "A javascript built app created to generate random long term passwords ",
+      "key": "Password-Gen",
+      "imageSrc": passImage,
+      "repository": "https://github.com/arand013/PasswordGenerator",
+      "deployed_app": "https://arand013.github.io/PasswordGenerator/"
+    },
   ]
   return (
     <>
@@ -46,7 +81,7 @@ function Projects() {
       <Container className="p-3 ">
         <Row>
           {projects.map((project) => {
-            return(
+            return (
               <Col s={12} lg={6} key={project.key}>
                 <Project project={project} />
               </Col>
