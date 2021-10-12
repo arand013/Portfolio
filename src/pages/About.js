@@ -15,19 +15,19 @@ function About() {
       <Jumbotron fluid className="mb-0">
         <Container>
           <Row>
-            <Col sm={12} md={6}lg={4} className="justify-content-center">
-              <Image 
+            <Col sm={12} md={6} lg={4} className="justify-content-center">
+              <Image
                 src={me}
                 roundedCircle
                 width="410vw"
-                height="400vw"/>
+                height="400vw" />
             </Col>
             <Col className="pl-md-5">
-                <h1 className="display-4 text-center text-lg-left text-light p-0-lg pt-4">
-                  I am  Alexander Aranda!</h1>
-                <p className="text-dark text-center text-md-left h3">
-                  An intuitive, problem solving full stack developer based in Los Angeles.
-                </p>
+              <h1 className="display-4 text-center text-lg-left text-light p-0-lg pt-4">
+                I am  Alexander Aranda!</h1>
+              <p className="text-dark text-center text-md-left h3">
+                An intuitive, problem solving full stack developer based in Los Angeles.
+              </p>
             </Col>
           </Row>
         </Container>
@@ -37,18 +37,19 @@ function About() {
         <Container className="p-5">
           <h3>About Me</h3>
           <p>
-          Leveraging an opportunity to push the to world to new technology one project at a time. Earned a certificate in Full Stack Web Development from the University of
-          California Los Angeles, developing my skills with Javascript, database's and React. In building creative user responsive
-          web apps.
+            An eager entreprenurial minded professional looking to push the boundaries of technology one project at a time.
+            As the pandemic began in 2019 I made a decsion to propel myself forward,
+            working 80 hours a week to successfully use the extra time at home to hone new skills.
           </p>
           <p>
-          In a project involving a team of three developers, we built a dynamic database system
-          along with a polished UI web-page. That now helps a local business owner to track their clients
-          appointments and deal with requests by sending technicians to appointments. In terms of my attitude I
-          have an ambitious outlook in providing value to industry leaders and group efforts to meet goals and over-deliver.
+            Earning a certificate in Full Stack Web Development from the University of
+            California Los Angeles, developing my skills with Javascript, database's and React. Building creative user responsive
+            web applications.
+            In terms of my attitude I have an ambitious outlook in providing value to industry leaders and
+            group efforts to meet goals and over-deliver.
           </p>
           <p>
-            When I'm not in front of a screen, you might find me creating music, learning something new, or spending time with friends and family.
+            Occasionally when I need a break, you might find me creating music, learning something new, or spending time with friends and family.
           </p>
         </Container>
       </Container>
