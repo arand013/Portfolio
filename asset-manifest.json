@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Portfolio-/static/css/main.8ca7ee7e.chunk.css",
-    "main.js": "/Portfolio-/static/js/main.8067a641.chunk.js",
-    "main.js.map": "/Portfolio-/static/js/main.8067a641.chunk.js.map",
+    "main.js": "/Portfolio-/static/js/main.7ed2118b.chunk.js",
+    "main.js.map": "/Portfolio-/static/js/main.7ed2118b.chunk.js.map",
     "runtime-main.js": "/Portfolio-/static/js/runtime-main.30fa756a.js",
     "runtime-main.js.map": "/Portfolio-/static/js/runtime-main.30fa756a.js.map",
     "static/css/2.8b28bcb7.chunk.css": "/Portfolio-/static/css/2.8b28bcb7.chunk.css",
@@ -14,13 +14,17 @@
     "static/js/2.9e454bf3.chunk.js.LICENSE.txt": "/Portfolio-/static/js/2.9e454bf3.chunk.js.LICENSE.txt",
     "static/media/Me-pic.fb1754ef.jpg": "/Portfolio-/static/media/Me-pic.fb1754ef.jpg",
     "static/media/auto-tech.e5ac1240.png": "/Portfolio-/static/media/auto-tech.e5ac1240.png",
-    "static/media/shuffle_music.69d195d9.png": "/Portfolio-/static/media/shuffle_music.69d195d9.png"
+    "static/media/password-gen.b03a2f32.png": "/Portfolio-/static/media/password-gen.b03a2f32.png",
+    "static/media/shuffle_music.69d195d9.png": "/Portfolio-/static/media/shuffle_music.69d195d9.png",
+    "static/media/tech-spot.970d1651.png": "/Portfolio-/static/media/tech-spot.970d1651.png",
+    "static/media/tracker.409c1581.png": "/Portfolio-/static/media/tracker.409c1581.png",
+    "static/media/weather-dash.30a211c8.png": "/Portfolio-/static/media/weather-dash.30a211c8.png"
   },
   "entrypoints": [
     "static/js/runtime-main.30fa756a.js",
     "static/css/2.8b28bcb7.chunk.css",
     "static/js/2.9e454bf3.chunk.js",
     "static/css/main.8ca7ee7e.chunk.css",
-    "static/js/main.8067a641.chunk.js"
+    "static/js/main.7ed2118b.chunk.js"
   ]
 }
