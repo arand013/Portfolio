@@ -10,6 +10,7 @@ import Col from 'react-bootstrap/Col';
 import Project from '../components/Project';
 
 // import images for apps
+import mintImage from '../assets/image/nft-mint.png'
 import ampImage from '../assets/image/visual-amp.png'
 import shuffleImage from '../assets/image/shuffle_music.png'
 import autoImage from '../assets/image/auto-tech.png'
@@ -23,10 +24,10 @@ function Projects() {
 
 
     {
-      "title": "Visual Amp",
+      "title": "NFT-MintEngine",
       "description": "This small project allows you to Mint any jpeg or png, then receive it on Rarible.io",
-      "key": "Visual-App",
-      "imageSrc": ampImage,
+      "key": "nft-Mint",
+      "imageSrc": mintImage,
       "repository": "https://github.com/arand013/NFT-Minter",
       "deployed_app": "https://arand013.github.io/NFT-Minter/"
     },
