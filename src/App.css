@@ -44,6 +44,7 @@ main {
   
   /* Start Jumbotron Styles */
   .jumbotron {
+    background-image: conic-gradient( #454594fa 8%, #7581f5fa 63%, #5b8fa8 15%);
     background-color: #5b8fa8;
     color: #f0e4c7;
   }
