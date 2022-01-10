@@ -2,7 +2,7 @@ main {
     display: flex;
     flex-direction: column;
     flex: 1 0 auto;
-    background-color: #f0e4c7;
+    background: linear-gradient(to top,  #7581f5fa, hsl(24, 71%, 55%));
     font-family: 'Lato', sans-serif;
     min-height: 90vh;
   }
