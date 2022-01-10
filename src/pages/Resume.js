@@ -31,27 +31,27 @@ function Resume() {
             <CardDeck>
               <Card>
                 <Card.Body>
-                  <h3>Frontend Tech</h3>
+                  <h3>Frontend Technology</h3>
                   <ul>
                     <li>JavaScript</li>
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>Responsive Design</li>
                     <li>React</li>
-                    <li>Bootstrap, Materialize, UIKit</li>
+                    <li>Bootstrap</li>
                     <li>jQuery</li>
                     <li>Tailwind</li>
                     <li>Handlebars</li>
+                    <li>Three.js</li>
                   </ul>
                 </Card.Body>
               </Card>
               <Card>
                 <Card.Body>
-                  <h3>Backend Tech</h3>
+                  <h3>Backend Technology</h3>
                   <ul>
                     <li>SQL</li>
-                    <li>REST</li>
-                    <li>APIs</li>
+                    <li>REST APIs</li>
                     <li>MongoDB, Mongoose</li>
                     <li>MySQL, Sequelize</li>
                     <li>JawDB</li> 
@@ -60,6 +60,8 @@ function Resume() {
                     <li>GraphQL</li>
                     <li>Django</li>
                     <li>Postman, Insomnia</li>
+                    <li>Solidity</li> 
+                    <li>WebGL</li> 
                   </ul>
                 </Card.Body>
               </Card>

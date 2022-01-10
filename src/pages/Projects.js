@@ -10,6 +10,7 @@ import Col from 'react-bootstrap/Col';
 import Project from '../components/Project';
 
 // import images for apps
+import ampImage from '../assets/image/password-gen.png'
 import shuffleImage from '../assets/image/shuffle_music.png'
 import autoImage from '../assets/image/auto-tech.png'
 import weatherImage from '../assets/image/weather-dash.png'
@@ -19,6 +20,15 @@ import passImage from '../assets/image/password-gen.png'
 
 function Projects() {
   const projects = [
+
+    {
+      "title": "Visual Amp",
+      "description": "This visualizer is a simple way. To import 3D effects to your favorite mp3, mp4, wav files with a music player and 3D graphics.",
+      "key": "Visual-App",
+      "imageSrc": ampImage,
+      "repository": "https://github.com/arand013/Music-Visualizer-_VisualAmp_-",
+      "deployed_app": "https://arand013.github.io/Music-Visualizer-_VisualAmp_-/"
+    },
     {
       "title": "Shuffle",
       "description": "A MERN app for discovering and saving music",
@@ -66,7 +76,7 @@ function Projects() {
       "imageSrc": passImage,
       "repository": "https://github.com/arand013/PasswordGenerator",
       "deployed_app": "https://arand013.github.io/PasswordGenerator/"
-    },
+    }
   ]
   return (
     <>
