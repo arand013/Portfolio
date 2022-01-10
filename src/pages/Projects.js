@@ -10,7 +10,7 @@ import Col from 'react-bootstrap/Col';
 import Project from '../components/Project';
 
 // import images for apps
-import ampImage from '../assets/image/password-gen.png'
+import ampImage from '../assets/image/visual-amp.png'
 import shuffleImage from '../assets/image/shuffle_music.png'
 import autoImage from '../assets/image/auto-tech.png'
 import weatherImage from '../assets/image/weather-dash.png'
@@ -21,6 +21,15 @@ import passImage from '../assets/image/password-gen.png'
 function Projects() {
   const projects = [
 
+
+    {
+      "title": "Visual Amp",
+      "description": "This small project allows you to Mint any jpeg or png, then receive it on Rarible.io",
+      "key": "Visual-App",
+      "imageSrc": ampImage,
+      "repository": "https://github.com/arand013/NFT-Minter",
+      "deployed_app": "https://arand013.github.io/NFT-Minter/"
+    },
     {
       "title": "Visual Amp",
       "description": "This visualizer is a simple way. To import 3D effects to your favorite mp3, mp4, wav files with a music player and 3D graphics.",
