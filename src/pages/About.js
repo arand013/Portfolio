@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 
 // import react-bootstrap components
 import Image from 'react-bootstrap/Image';
@@ -39,7 +39,10 @@ function About() {
           <p>
             An eager entreprenurial minded professional looking to push the boundaries of technology one project at a time.
             As the pandemic began in 2019 I made a decision to propel myself forward into technology.
-            While balansing my day job and taking A web bootcamp I worked 80 hours a week, and successfully hone new skills by building projects as fun as "https://arand013.github.io/Music-Visualizer-_VisualAmp_-/" and "https://shuffle-music.herokuapp.com/"
+            While balancing my day job and taking A web bootcamp I worked 80 hours a week, and successfully honed new skills
+            by building projects as fun as <Link to='/Projects'>Visual Amp and Shuffle!</Link>
+
+
           </p>
           <p>
             After, earning a certificate in Full Stack Web Development from the University of
