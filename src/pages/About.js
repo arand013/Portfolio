@@ -38,12 +38,12 @@ function About() {
           <h3>About Me</h3>
           <p>
             An eager entreprenurial minded professional looking to push the boundaries of technology one project at a time.
-            As the pandemic began in 2019 I made a decision to propel myself forward into technology,
-            working 80 hours a week to successfully use the extra time at home to hone new skills.
+            As the pandemic began in 2019 I made a decision to propel myself forward into technology.
+            While balansing my day job and taking A web bootcamp I worked 80 hours a week, and successfully hone new skills by building projects as fun as "https://arand013.github.io/Music-Visualizer-_VisualAmp_-/" and "https://shuffle-music.herokuapp.com/"
           </p>
           <p>
-            After, earningn a certificate in Full Stack Web Development from the University of
-            California Los Angeles, I developed my skills with Javascript, database's and React. Building creative user responsive
+            After, earning a certificate in Full Stack Web Development from the University of
+            California Los Angeles, I developed my skills with Javascript, databases and React. Building creative user responsive
             web applications.
             In terms of my attitude I have an ambitious outlook in providing value to growing brands and
             group efforts aiming to make an impact!
