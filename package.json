@@ -1,7 +1,7 @@
 {
   "homepage": "http://arand013.github.io/Portfolio",
   "name": "portfolio",
-  "version": "2.1.0",
+  "version": "2.1.2",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
