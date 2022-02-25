@@ -46,13 +46,12 @@ function About() {
           </p>
           <p>
             After, earning a certificate in Full Stack Web Development from the University of
-            California Los Angeles, I developed my skills with Javascript, databases and React. Building creative user responsive
+            California Los Angeles, I developed my skills with Javascript, databases and React. Building secure and creative user responsive
             web applications.
-            In terms of my attitude I have an ambitious outlook in providing value to growing brands and
-            group efforts aiming to make an impact!
+            In terms of my attitude I have a very ambitious outlook in providing value to others and where technology is headed. I aim to do great work and make an impact!
           </p>
           <p>
-            Occasionally when I need a break, you might find me creating music, learning something new, or spending time with friends and family.
+            Occasionally when I need a break, you might find me creating music, learning something new, or spending quality time with friends and family.
           </p>
         </Container>
       </Container>
