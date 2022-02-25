@@ -36,8 +36,8 @@ function Projects() {
       "description": "This visualizer is a simple way. To import 3D effects to your favorite mp3, mp4, wav files with a music player and 3D graphics.",
       "key": "Visual-App",
       "imageSrc": ampImage,
-      "repository": "https://github.com/arand013/Music-Visualizer-_VisualAmp_-",
-      "deployed_app": "https://arand013.github.io/Music-Visualizer-_VisualAmp_-/"
+      "repository": "https://github.com/arand013/VisualAmp",
+      "deployed_app": "https://arand013.github.io/VisualAmp/"
     },
     {
       "title": "Shuffle",
