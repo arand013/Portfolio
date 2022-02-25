@@ -2,7 +2,7 @@
 
 This repo includes code for my portfolio built with React.
 
-Deployed app: http://arand013.github.io/Portfolio- 
+Deployed app: http://arand013.github.io/Portfolio 
 
 
 ## Dev Info
