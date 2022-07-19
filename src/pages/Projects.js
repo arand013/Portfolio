@@ -53,7 +53,7 @@ function Projects() {
       "key": "Auto-technician",
       "imageSrc": autoImage,
       "repository": "https://github.com/arand013/Auto-Technician-project-2",
-      "deployed_app": "https://new-gen-mechanics.herokuapp.com/"
+      "deployed_app": "https://newgenmechanics.com"
     },
     {
       "title": "Weather Dashboard",
