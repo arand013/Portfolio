@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.69c378f3.chunk.css",
-    "main.js": "/Portfolio/static/js/main.2cf0b309.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.2cf0b309.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.cc7fe6e2.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.cc7fe6e2.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.1df2450b.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.1df2450b.js.map",
     "static/css/2.8b28bcb7.chunk.css": "/Portfolio/static/css/2.8b28bcb7.chunk.css",
@@ -15,8 +15,9 @@
     "static/media/Me-pic.fb1754ef.jpg": "/Portfolio/static/media/Me-pic.fb1754ef.jpg",
     "static/media/auto-tech.e5ac1240.png": "/Portfolio/static/media/auto-tech.e5ac1240.png",
     "static/media/nft-mint.2cecbb73.png": "/Portfolio/static/media/nft-mint.2cecbb73.png",
-    "static/media/password-gen.b03a2f32.png": "/Portfolio/static/media/password-gen.b03a2f32.png",
+    "static/media/password-gen.53ae7ec1.png": "/Portfolio/static/media/password-gen.53ae7ec1.png",
     "static/media/shuffle_music.69d195d9.png": "/Portfolio/static/media/shuffle_music.69d195d9.png",
+    "static/media/spiralJS.753f6a3b.png": "/Portfolio/static/media/spiralJS.753f6a3b.png",
     "static/media/tech-spot.970d1651.png": "/Portfolio/static/media/tech-spot.970d1651.png",
     "static/media/tracker.409c1581.png": "/Portfolio/static/media/tracker.409c1581.png",
     "static/media/visual-amp.87a627a6.png": "/Portfolio/static/media/visual-amp.87a627a6.png",
@@ -27,6 +28,6 @@
     "static/css/2.8b28bcb7.chunk.css",
     "static/js/2.327476be.chunk.js",
     "static/css/main.69c378f3.chunk.css",
-    "static/js/main.2cf0b309.chunk.js"
+    "static/js/main.cc7fe6e2.chunk.js"
   ]
 }
