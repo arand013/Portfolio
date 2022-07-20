@@ -16,12 +16,7 @@ function ContactIcons() {
       "name": "github",
       "url": "https://github.com/arand013",
       "classes": "fab fa-github"
-    },
-    {
-      "name": "instagram",
-      "url": "https://www.instagram.com/aranda.a_1/",
-      "classes": "fab fa-instagram"
-    },
+    }
   ]
 
   return (
