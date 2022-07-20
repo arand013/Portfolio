@@ -18,6 +18,8 @@ import weatherImage from '../assets/image/weather-dash.png'
 import techImage from '../assets/image/tech-spot.png'
 import trackerImage from '../assets/image/tracker.png'
 import passImage from '../assets/image/password-gen.png'
+import spiralImage from '../assets/image/spiralJS.png'
+
 
 function Projects() {
   const projects = [
@@ -86,6 +88,15 @@ function Projects() {
       "imageSrc": passImage,
       "repository": "https://github.com/arand013/PasswordGenerator",
       "deployed_app": "https://arand013.github.io/PasswordGenerator/"
+    }
+    ,
+    {
+      "title": "Three JS Spiral",
+      "description": " A 3D Space Animation using Three.js ",
+      "key": "ThreeJS-Spiral",
+      "imageSrc": spiralImage,
+      "repository": "https://github.com/arand013/three-js-spiral",
+      "deployed_app": "https://arand013.github.io/three-js-spiral/"
     }
   ]
   return (
