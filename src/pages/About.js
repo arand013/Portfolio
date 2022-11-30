@@ -26,7 +26,7 @@ function About() {
               <h1 className="display-4 text-center text-lg-left text-light p-0-lg pt-4">
                 I am  Alexander Aranda!</h1>
               <p className="text-dark text-center text-md-left h3">
-                An intuitive problem solver. Software Engineer that relocated to Boca Raton, FL from Los Angeles, CA.
+                A Software Engineer that relocated to Boca Raton, FL from Los Angeles, CA.
               </p>
             </Col>
           </Row>
