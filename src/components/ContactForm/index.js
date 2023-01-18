@@ -44,7 +44,7 @@ function ContactForm() {
         setFormMessage("Message sent!");
       }, function(error) {
         console.log(error.text);
-        setFormMessage("Your message couldn't be sent. Please email Vanessa directly at vlane0593@gmail.com");
+        setFormMessage("Your message couldn't be sent. Please email me directly at alexanderaranda@ymail.com thank you");
       });
   }
 
