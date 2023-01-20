@@ -38,11 +38,13 @@ function Resume() {
                     <li>CSS</li>
                     <li>Responsive Design</li>
                     <li>React</li>
+                    <li>C#</li>
                     <li>Bootstrap</li>
                     <li>jQuery</li>
                     <li>Tailwind</li>
-                    <li>Handlebars</li>
+                    <li>.NET</li>
                     <li>Three.js</li>
+
                   </ul>
                 </Card.Body>
               </Card>
