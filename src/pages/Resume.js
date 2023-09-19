@@ -20,7 +20,7 @@ function Resume() {
     
           <Container className="py-5 d-flex flex-column flex-md-row justify-content-center align-items-center">
             <Button
-              href="https://docs.google.com/document/d/1yiBam1jo-lV9dmapLuooM5gCpfLncE8i61Er7zRzuaY/edit?usp=sharing"
+              href="https://drive.google.com/file/d/1eNgszP_CytpgnYLZQNGlOXU7iRoIl0Ch/view"
               target="_blank"
               rel="noopener noreferrer">
                 View My Resume
@@ -38,11 +38,9 @@ function Resume() {
                     <li>CSS</li>
                     <li>Responsive Design</li>
                     <li>React</li>
-                    <li>C#</li>
+                    <li>Typeascript</li>
                     <li>Bootstrap</li>
-                    <li>jQuery</li>
                     <li>Tailwind</li>
-                    <li>.NET</li>
                     <li>Three.js</li>
 
                   </ul>
@@ -56,8 +54,8 @@ function Resume() {
                     <li>REST APIs</li>
                     <li>MongoDB, Mongoose</li>
                     <li>MySQL, Sequelize</li>
-                    <li>JawDB</li> 
-                    <li>Express</li>
+                    <li>MindsDB</li> 
+                    <li>Python</li>
                     <li>Node</li>
                     <li>GraphQL</li>
                     <li>Django</li>

@@ -4,7 +4,7 @@ function ContactIcons() {
   const contactLinks = [
     {
       "name": "email",
-      "url": "mailto:alexanderaranda@ymail.com",
+      "url": "mailto:arandaresume23@gmail.com",
       "classes": "far fa-envelope"
     },
     {

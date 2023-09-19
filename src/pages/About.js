@@ -37,8 +37,8 @@ function About() {
         <Container className="p-5">
           <h3>About Me</h3>
           <p>
-            An eager entreprenurial minded professional looking to push the boundaries of technology one project at a time.
-            As the pandemic began in 2019 I made a decision to propel myself forward into technology.
+            An eager entrepreneurial minded professional looking to push the boundaries of technology one project at a time.
+            As the pandemic began in 2020 I made a decision to propel myself forward into technology.
             While balancing my day job and taking A web bootcamp I worked 80 hours a week, and successfully honed new skills
             by building projects as fun as <Link to='/Projects'>Visual Amp and Shuffle!</Link>
 
