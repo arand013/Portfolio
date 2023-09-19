@@ -1,8 +1,8 @@
 # Introduction
 
 This repo includes code for my portfolio built with React.
-My recent works and ways to connect with me. 
-Enjoy
+My recent works as of 2023 and ways to connect with me. 
+Enjoy!``
 
 ## Built With
 * React
