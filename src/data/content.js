@@ -68,6 +68,10 @@ export const skills = {
       title: 'Backend Technology',
       items: ['SQL', 'REST APIs', 'MongoDB', 'Mongoose', 'MySQL', 'Sequelize', 'MindsDB', 'Python', 'Node', 'GraphQL', 'Django', 'Postman', 'Insomnia', 'Solidity', 'WebGL'],
     },
+    {
+      title: 'Experience',
+      items: ['JPMorgan Chase & Co.', 'Tesla','American Express','UPS']
+    },
   ],
 };
 
@@ -211,11 +215,11 @@ export const resume = {
   categories: [
     {
       title: 'What I Build With',
-      items: ['React', 'Javascript', 'HTML', 'CSS', 'Responsive web applications'],
+      items: ['Python', 'JavaScript', 'Java', 'React', 'SQL'],
     },
     {
       title: 'What Shapes My Approach',
-      items: ['Economics', 'Computer Science', 'Full Stack Web Development', 'Undergraduate research'],
+      items: ['Economics', 'Computer Science', 'Mathematics', 'Curiosity', 'Innovation'],
     },
   ],
 };
@@ -224,8 +228,8 @@ export const contact = {
   eyebrow: 'CONTACT',
   title: "Let's connect",
   copy: "I'm open to conversations about growth, research, and building thoughtful digital experiences.",
-  email: 'Arandaresume23@gmail.com',
+  email: 'alexanderaranda@ymail.com',
   linkedin: 'https://linkedin.com/in/alexander-aranda1',
   github: 'https://github.com/arand013',
-  location: 'Boca Raton, FL',
+  location: 'Phoenix, AZ',
 };
