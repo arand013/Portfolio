@@ -1,52 +1,44 @@
-# Introduction
+# Alexander Aranda Portfolio
 
-This repo includes code for my portfolio built with React.
-My recent works as of 2023 and ways to connect with me. 
-Enjoy!``
+Premium single-page portfolio rebuilt with Bun, Vite, and React.
 
-## Built With
-* React
-* Javscript
-* CSS
-* Git
+## Stack
 
-## Website
-Deployed app: http://arand013.github.io/Portfolio 
+- Bun
+- Vite
+- React
+- CSS
+- GitHub Pages
 
-<img width="1440" alt="Screen Shot 2022-07-19 at 4 06 38 PM" src="https://user-images.githubusercontent.com/81955843/179863225-9a346264-7db0-474d-ba51-f009601336d0.png">
+## Design Direction
 
+- Premium and modern
+- Finance and data-analytics influence
+- Subtle 3D depth and layered UI
+- Mobile-first single-page flow
+- Split-screen hero on larger screens
 
-<img width="1440" alt="Screen Shot 2022-07-19 at 4 07 08 PM" src="https://user-images.githubusercontent.com/81955843/179863243-284e9d07-790f-4dcf-9ef4-4b60e02341bc.png">
+## Local Development
 
+```bash
+bun install
+bun run dev
+```
 
-<img width="1440" alt="Screen Shot 2022-07-19 at 4 07 27 PM" src="https://user-images.githubusercontent.com/81955843/179863256-dffedd2b-515b-4403-af08-cba028925789.png">
+## Production Build
 
-## Contribution
-Made with ❤️ by [Alexander Aranda]
+```bash
+bun run build
+```
 
+## Deploy
 
+```bash
+bun run deploy
+```
 
+## Notes
 
-
-## Dev Info
-This project was bootstrapped with Create React App.
-
-## Available Scripts
-In the project directory, you can run:
-
-### `npm start`
-
-### `npm test`
-
-### `npm run build`
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-## Learn More
-
-## Deployment
-
-### `npm run build` fails to minify
-
+- The site is configured for GitHub Pages repo hosting with the `/Portfolio/` base path.
+- Content is centralized in `src/data/content.js`.
+- The app entry is `src/main.jsx`.

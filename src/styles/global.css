@@ -1,0 +1,246 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  font-family: var(--font-body);
+  color: var(--text);
+  background:
+    radial-gradient(circle at top right, rgba(76, 120, 255, 0.14), transparent 28%),
+    radial-gradient(circle at 12% 14%, rgba(192, 202, 216, 0.36), transparent 24%),
+    linear-gradient(180deg, #f4f7fb 0%, var(--bg) 48%, #eef2f7 100%);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.page-shell {
+  position: relative;
+  overflow: clip;
+}
+
+.page-shell::before,
+.page-shell::after {
+  position: fixed;
+  inset: auto;
+  content: '';
+  pointer-events: none;
+  z-index: -1;
+}
+
+.page-shell::before {
+  top: 0;
+  right: -12rem;
+  width: 26rem;
+  height: 26rem;
+  border-radius: 999px;
+  background: radial-gradient(circle, rgba(76, 120, 255, 0.2), transparent 70%);
+  filter: blur(28px);
+}
+
+.page-shell::after {
+  bottom: 10%;
+  left: -10rem;
+  width: 20rem;
+  height: 20rem;
+  border-radius: 999px;
+  background: radial-gradient(circle, rgba(192, 202, 216, 0.22), transparent 72%);
+  filter: blur(32px);
+}
+
+.container {
+  width: min(100% - 2rem, var(--container));
+  margin: 0 auto;
+}
+
+.section {
+  padding: clamp(4rem, 7vw, 6.5rem) 0;
+  position: relative;
+}
+
+.section--soft {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.55), rgba(255, 255, 255, 0.32));
+}
+
+.section--compact {
+  padding-bottom: clamp(3.5rem, 6vw, 5rem);
+}
+
+.eyebrow {
+  margin: 0 0 1rem;
+  color: var(--text-soft);
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.section-heading {
+  max-width: 42rem;
+}
+
+.section-heading.is-centered {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.section-heading h2,
+.hero h1 {
+  margin: 0;
+  font-family: var(--font-display);
+  letter-spacing: -0.04em;
+  line-height: 1.02;
+}
+
+.section-heading h2 {
+  font-size: var(--fs-heading);
+}
+
+.section-copy,
+.hero-description,
+.about-body p,
+.project-body p,
+.resume-highlights li,
+.contact-card,
+.skill-card__header p,
+.analytics-panel p {
+  color: var(--text-soft);
+  font-size: var(--fs-body);
+  line-height: 1.7;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  min-height: 3.25rem;
+  padding: 0.85rem 1.35rem;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  font-weight: 600;
+  transition:
+    transform 180ms ease,
+    border-color 180ms ease,
+    background-color 180ms ease,
+    color 180ms ease,
+    box-shadow 180ms ease;
+}
+
+.button:hover,
+.button:focus-visible {
+  transform: translateY(-2px);
+}
+
+.button:focus-visible,
+.nav-link:focus-visible,
+.brand:focus-visible,
+.hero-socials a:focus-visible,
+.contact-card a:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 4px;
+}
+
+.button-primary {
+  color: var(--text-inverse);
+  background: linear-gradient(135deg, var(--surface-dark), #1d2b49);
+  box-shadow: var(--shadow-soft);
+}
+
+.button-primary:hover,
+.button-primary:focus-visible {
+  box-shadow: 0 20px 40px rgba(15, 23, 40, 0.16);
+}
+
+.button-secondary,
+.button-ghost {
+  background: rgba(255, 255, 255, 0.55);
+  color: var(--text);
+  border-color: var(--border);
+  backdrop-filter: blur(14px);
+}
+
+.button-secondary:hover,
+.button-secondary:focus-visible,
+.button-ghost:hover,
+.button-ghost:focus-visible {
+  border-color: var(--border-strong);
+  background: rgba(255, 255, 255, 0.75);
+}
+
+.skip-link {
+  position: fixed;
+  left: 1rem;
+  top: -4rem;
+  z-index: 50;
+  padding: 0.75rem 1rem;
+  border-radius: 999px;
+  color: var(--text-inverse);
+  background: var(--surface-dark);
+  transition: top 150ms ease;
+}
+
+.skip-link:focus {
+  top: 1rem;
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition:
+    opacity 650ms ease var(--delay, 0ms),
+    transform 650ms ease var(--delay, 0ms);
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .reveal {
+    opacity: 1;
+    transform: none;
+  }
+}
