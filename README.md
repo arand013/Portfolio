@@ -1,44 +1,72 @@
 # Alexander Aranda Portfolio
 
-Premium single-page portfolio rebuilt with Bun, Vite, and React.
+A single-page portfolio built with Bun, Vite, and React.
 
-## Stack
+## Live Site
 
-- Bun
-- Vite
-- React
-- CSS
-- GitHub Pages
+[View the site](https://arand013.github.io/Portfolio/)
 
-## Design Direction
+## Overview
 
-- Premium and modern
-- Finance and data-analytics influence
-- Subtle 3D depth and layered UI
-- Mobile-first single-page flow
-- Split-screen hero on larger screens
+This project is a personal portfolio focused on selected work, technical growth, and a cleaner presentation of experience.
 
-## Local Development
+It is designed as a fast, static site with:
+
+- Bun for package management and scripts
+- Vite for development and production builds
+- React for the UI
+- GitHub Pages for hosting
+
+## Getting Started
+
+### Install dependencies
 
 ```bash
 bun install
+```
+
+### Start the development server
+
+```bash
 bun run dev
 ```
 
-## Production Build
+### Build for production
 
 ```bash
 bun run build
 ```
 
-## Deploy
+### Preview the production build locally
+
+```bash
+bun run preview
+```
+
+## Deployment
+
+This repo is configured for GitHub Pages with the `/Portfolio/` base path.
+
+To publish the current production build:
 
 ```bash
 bun run deploy
 ```
 
+## Project Structure
+
+```text
+src/
+  components/
+  data/
+  sections/
+  styles/
+  App.jsx
+  main.jsx
+```
+
 ## Notes
 
-- The site is configured for GitHub Pages repo hosting with the `/Portfolio/` base path.
-- Content is centralized in `src/data/content.js`.
-- The app entry is `src/main.jsx`.
+- Main content lives in `src/data/content.js`
+- App entry is `src/main.jsx`
+- Vite config is `vite.config.mjs`
