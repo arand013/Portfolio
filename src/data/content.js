@@ -18,7 +18,7 @@ export const navLinks = [
 ];
 
 export const hero = {
-  title: "Hey you! Welcome to my page",
+  title: "Hey! Welcome",
   description:
     "I strive to stay innovative, keep learning, solve problems, and always be curious.",
   primaryCta: {
@@ -57,20 +57,20 @@ export const about = {
 
 export const skills = {
   eyebrow: 'SKILLS',
-  title: 'Technical Foundation',
+  title: 'Foundation',
   copy: 'A mix of frontend execution, backend fundamentals, and tools that support thoughtful product work.',
   groups: [
     {
       title: 'Frontend Technology',
-      items: ['JavaScript', 'HTML', 'CSS', 'Responsive Design', 'React', 'TypeScript', 'Bootstrap', 'Tailwind', 'Three.js'],
+      items: ['Responsive Design', 'React', 'TypeScript', 'Bootstrap', 'Tailwind', 'Three.js'],
     },
     {
       title: 'Backend Technology',
-      items: ['SQL', 'REST APIs', 'MongoDB', 'Mongoose', 'MySQL', 'Sequelize', 'MindsDB', 'Python', 'Node', 'GraphQL', 'Django', 'Postman', 'Insomnia', 'Solidity', 'WebGL'],
+      items: ['Python', 'SQL', 'REST APIs', 'MongoDB', 'MySQL', 'Node', 'Postman'],
     },
     {
-      title: 'Experience',
-      items: ['JPMorgan Chase & Co.', 'Tesla','American Express','UPS']
+      title: 'Experience & Leadership',
+      items: ['JPMorgan Chase & Co.', 'Tesla', 'American Express', 'UPS'],
     },
   ],
 };
@@ -213,14 +213,6 @@ export const resume = {
     'Florida Atlantic University',
   ],
   categories: [
-    {
-      title: 'What I Build With',
-      items: ['Python', 'JavaScript', 'Java', 'React', 'SQL'],
-    },
-    {
-      title: 'What Shapes My Approach',
-      items: ['Economics', 'Computer Science', 'Mathematics', 'Curiosity', 'Innovation'],
-    },
   ],
 };
 
@@ -228,7 +220,7 @@ export const contact = {
   eyebrow: 'CONTACT',
   title: "Let's connect",
   copy: "I'm open to conversations about growth, research, and building thoughtful digital experiences.",
-  email: 'alexanderaranda@ymail.com',
+  email: 'Alexanderaranda@ymail.com',
   linkedin: 'https://linkedin.com/in/alexander-aranda1',
   github: 'https://github.com/arand013',
   location: 'Phoenix, AZ',
