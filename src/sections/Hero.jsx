@@ -1,4 +1,3 @@
-import AnalyticsPanel from '../components/AnalyticsPanel';
 import Reveal from '../components/Reveal';
 
 function Hero({ content }) {
@@ -47,23 +46,8 @@ function Hero({ content }) {
                 </a>
               ))}
             </div>
-
-            <dl className="hero-metrics">
-              {content.metrics.map((metric) => (
-                <div key={metric.label} className="metric-card">
-                  <dt>{metric.label}</dt>
-                  <dd>{metric.value}</dd>
-                </div>
-              ))}
-            </dl>
+            
           </div>
-        </Reveal>
-
-        <Reveal
-          className="hero-panel"
-          style={{ '--delay': '120ms' }}
-        >
-          <AnalyticsPanel panel={content.panel} />
         </Reveal>
       </div>
     </section>

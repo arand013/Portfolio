@@ -13,6 +13,7 @@ function Projects({ content }) {
           <SectionHeading
             eyebrow={content.eyebrow}
             title={content.title}
+            copy={content.copy}
           />
         </Reveal>
 

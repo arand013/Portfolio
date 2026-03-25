@@ -12,6 +12,7 @@ function Contact({ content }) {
           <SectionHeading
             eyebrow={content.eyebrow}
             title={content.title}
+            copy={content.copy}
           />
 
           <a

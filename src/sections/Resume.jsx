@@ -1,3 +1,4 @@
+import JourneyPath from '../components/JourneyPath';
 import SectionHeading from '../components/SectionHeading';
 import Reveal from '../components/Reveal';
 
@@ -21,22 +22,7 @@ function Resume({ content }) {
             className="resume-summary-card"
             style={{ '--delay': '80ms' }}
           >
-            <div className="resume-timeline">
-              {content.timeline.map((item) => (
-                <article key={`${item.period}-${item.title}`} className="resume-timeline__item">
-                  <span>{item.period}</span>
-                  <strong>{item.title}</strong>
-                  <p>{item.detail}</p>
-                </article>
-              ))}
-            </div>
-
-            <ul className="resume-research-list">
-              {content.research.map((item) => (
-                <li key={item}>{item}</li>
-              ))}
-            </ul>
-
+            <JourneyPath items={content.timeline} />
             <a
               className="button button-primary"
               href={content.resumeUrl}

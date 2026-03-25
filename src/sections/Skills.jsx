@@ -12,6 +12,7 @@ function Skills({ content }) {
           <SectionHeading
             eyebrow={content.eyebrow}
             title={content.title}
+            copy={content.copy}
             align="center"
           />
         </Reveal>

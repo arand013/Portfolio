@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import SiteNav from './components/SiteNav';
+import TypingIntro from './components/TypingIntro';
 import About from './sections/About';
 import Contact from './sections/Contact';
 import Hero from './sections/Hero';
@@ -12,8 +13,13 @@ const trackedSections = ['hero', ...navLinks.map((link) => link.id)];
 
 function App() {
   const [activeSection, setActiveSection] = useState('hero');
+  const [showIntro, setShowIntro] = useState(true);
 
   useEffect(() => {
+    if (showIntro) {
+      return undefined;
+    }
+
     const elements = trackedSections
       .map((sectionId) => document.getElementById(sectionId))
       .filter(Boolean);
@@ -37,7 +43,11 @@ function App() {
     elements.forEach((element) => observer.observe(element));
 
     return () => observer.disconnect();
-  }, []);
+  }, [showIntro]);
+
+  if (showIntro) {
+    return <TypingIntro onComplete={() => setShowIntro(false)} />;
+  }
 
   return (
     <>
@@ -57,10 +67,10 @@ function App() {
         <main id="content">
           <Hero content={hero} />
           <About content={about} />
-          <Skills content={skills} />
-          <Projects content={projects} />
           <Resume content={resume} />
+          <Projects content={projects} />
           <Contact content={contact} />
+          <Skills content={skills} />
         </main>
 
         <footer className="site-footer">

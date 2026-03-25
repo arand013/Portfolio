@@ -1,24 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Sora:wght@400;500;600;700;800&display=swap');
 
 :root {
-  --bg: #e9edf4;
-  --bg-strong: #d9e0ea;
-  --surface: rgba(239, 243, 249, 0.8);
-  --surface-strong: rgba(248, 250, 253, 0.94);
-  --surface-dark: #0f1728;
-  --surface-dark-soft: rgba(15, 23, 40, 0.88);
-  --border: rgba(48, 65, 95, 0.14);
-  --border-strong: rgba(48, 65, 95, 0.26);
-  --text: #101827;
-  --text-soft: #5a667d;
-  --text-inverse: #eef4fb;
-  --accent: #4c78ff;
-  --accent-soft: rgba(76, 120, 255, 0.16);
-  --highlight: #c0cad8;
-  --highlight-soft: rgba(192, 202, 216, 0.22);
-  --shadow-soft: 0 20px 60px rgba(16, 24, 40, 0.09);
-  --shadow-card: 0 26px 60px rgba(15, 23, 40, 0.12);
-  --shadow-panel: 0 32px 80px rgba(8, 15, 28, 0.28);
+  /* 60-30-10 palette: deep navy base, slate support surfaces, electric-blue accent. */
+  --bg: #07101d;
+  --bg-strong: #0d1728;
+  --surface: rgba(18, 28, 43, 0.82);
+  --surface-strong: rgba(24, 36, 56, 0.94);
+  --surface-dark: #040913;
+  --surface-dark-soft: rgba(7, 12, 21, 0.92);
+  --surface-muted: rgba(11, 18, 30, 0.9);
+  --border: rgba(124, 146, 180, 0.22);
+  --border-strong: rgba(124, 146, 180, 0.42);
+  --text: #e8eef9;
+  --text-soft: #99a8c0;
+  --text-inverse: #f6f9ff;
+  --accent: #5d8cff;
+  --accent-strong: #7fa8ff;
+  --accent-soft: rgba(93, 140, 255, 0.2);
+  --highlight: #a6b4c8;
+  --highlight-soft: rgba(166, 180, 200, 0.18);
+  --shadow-soft: 0 20px 60px rgba(0, 4, 10, 0.34);
+  --shadow-card: 0 26px 60px rgba(0, 4, 10, 0.42);
+  --shadow-panel: 0 32px 80px rgba(0, 2, 8, 0.58);
   --radius-sm: 16px;
   --radius-md: 24px;
   --radius-lg: 34px;

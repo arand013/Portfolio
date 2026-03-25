@@ -11,16 +11,16 @@ import spiralImage from '../assets/image/spiralJS.png';
 
 export const navLinks = [
   { id: 'about', label: 'About' },
-  { id: 'skills', label: 'Skills' },
-  { id: 'projects', label: 'Projects' },
   { id: 'resume', label: 'Journey' },
+  { id: 'projects', label: 'Projects' },
   { id: 'contact', label: 'Contact' },
+  { id: 'skills', label: 'Skills' },
 ];
 
 export const hero = {
-  eyebrow: 'SOFTWARE ENGINEER / EDUCATION JOURNEY',
-  title: 'An ambitious individual creating opportunities to build more creative user experiences.',
-  description: 'A certified Full Stack Web Developer working towards a career in software engineering.',
+  title: "Hey you! Welcome to my page",
+  description:
+    "I strive to stay innovative, keep learning, solve problems, and always be curious.",
   primaryCta: {
     label: 'View Journey',
     href: '#resume',
@@ -29,78 +29,36 @@ export const hero = {
     label: 'Contact',
     href: '#contact',
   },
-  signals: ['Economics', 'Computer Science', 'React', 'Research'],
+  signals: ['Economics', 'Computer Science', 'Mathematics', 'Artificial Intelligence'],
   socials: [
     { label: 'GitHub', href: 'https://github.com/arand013' },
     { label: 'LinkedIn', href: 'https://linkedin.com/in/alexander-aranda1' },
-    { label: 'Email', href: 'mailto:Arandaresume23@gmail.com' },
-  ],
-  metrics: [
-    { value: 'Florida Atlantic University', label: 'B.S. Economics' },
-    { value: 'University of California Los Angeles', label: 'Full Stack Certificate' },
-    { value: 'Chaffey Community College', label: 'A.S. Economics' },
-  ],
-  panel: {
-    badge: 'CAREER STORY',
-    headline: 'College foundation to software engineering.',
-    copy:
-      'Learning to increase programming technology skills such as React, Javascript, HTML and CSS, by building user responsive web applications.',
-    timeline: [
-      {
-        period: '2017 - 2018',
-        title: 'Associate Program',
-        detail: 'California State University San Marcos',
-      },
-      {
-        period: '2020',
-        title: 'A.S., Economics',
-        detail: 'Chaffey Community College',
-      },
-      {
-        period: '2021',
-        title: 'Certificate, Full Stack Web Development',
-        detail: 'University of California Los Angeles',
-      },
-      {
-        period: 'In Progress',
-        title: 'B.S., Economics / Minor in Computer Science',
-        detail: 'Florida Atlantic University',
-      },
-    ],
-    cards: [
-      { label: 'College', value: 'Economics', tone: 'blue' },
-      { label: 'Certificate', value: 'Full Stack Web Development', tone: 'silver' },
-      { label: 'Research', value: 'MPCR Lab', tone: 'slate' },
-    ],
-    metrics: [
-      { label: 'Undergraduate Student', value: 'Department of Economics / EECS' },
-      { label: 'Recognition', value: 'Undergraduate Researcher of the Year' },
-      { label: 'Mentor', value: 'Eric Levy' },
-    ],
-  },
+    { label: 'Email', href: 'mailto:alexanderaranda@ymail.com' },
+  ]
 };
 
 export const about = {
   image: profileImage,
   eyebrow: 'ABOUT',
-  title: 'Building My Career',
-  summary: 'A certified Full Stack Web Developer working towards a career in software engineering.',
+  title: 'Building With Intention',
+  summary: "A software engineer with a foundation in economics, research, innovation, and full stack development.",
   paragraphs: [
-    'An ambitious individual creating opportunities to build more creative user experiences. A certified Full Stack Web Developer working towards a career in software engineering.',
-    'After completing a full stack web development bootcamp from the University of California Los Angeles, learning to increase programming technology skills such as React, Javascript, HTML and CSS, by building user responsive web applications.',
-    'Through the past years of work and university one runs across hardships and faces many obstacles, however learning that by including grit and perseverance into your work there are possibilities to achieve many more successes.',
+    "I'm building my career one step at a time, combining formal study with hands-on development so the work stays grounded in both discipline and execution.",
+    "After completing UCLA's full stack web development certificate, I kept pushing deeper into React, JavaScript, HTML, and CSS by building responsive applications and sharpening how I think about user experience.",
+    'What matters most to me is steady progress. Every class, project, and research opportunity helps me communicate more clearly, think more critically, and build with more purpose.',
   ],
   highlights: [
-    { label: 'In Progress', value: 'B.S., Economics / Florida Atlantic University' },
-    { label: 'Minor', value: 'Computer Science' },
+    { label: 'Achieved', value: 'B.S., Economics {Foreign Policy} / Florida Atlantic University' },
+    { label: 'Minor', value: 'Artificial Intelligence / Florida Atlantic University' },
     { label: 'Certificate', value: 'Full Stack Web Development / UCLA' },
-    { label: 'Foundation', value: 'A.S., Economics / Chaffey Community College' },
+    { label: 'Achieved', value: 'A.S., Economics / Chaffey Community College' },
   ],
 };
 
 export const skills = {
   eyebrow: 'SKILLS',
-  title: 'Skills & Experience',
+  title: 'Technical Foundation',
+  copy: 'A mix of frontend execution, backend fundamentals, and tools that support thoughtful product work.',
   groups: [
     {
       title: 'Frontend Technology',
@@ -114,12 +72,13 @@ export const skills = {
 };
 
 export const projects = {
-  eyebrow: 'PROJECTS',
-  title: 'Recent Projects',
+  title: 'PROJECTS',
+  copy: 'These projects show how I learn: by building, testing ideas, and turning curiosity into real interfaces.',
   items: [
     {
       title: 'NFT MintEngine',
-      summary: 'This small project allows you to Mint any jpeg or png, then receive it on Rarible.io',
+      summary: 'A React project for minting JPEG or PNG artwork and pushing it into a Web3 publishing flow.',
+      outcome: 'Built to simplify the path from image upload to NFT minting.',
       tags: ['React', 'NFT', 'Web3'],
       image: mintImage,
       repository: 'https://github.com/arand013/NFT-Minter',
@@ -127,7 +86,8 @@ export const projects = {
     },
     {
       title: 'Visual Amp',
-      summary: 'This visualizer is a simple way. To import 3D effects to your favorite mp3, mp4, wav files with a music player and 3D graphics.',
+      summary: 'A Three.js audio visualizer that brings uploaded mp3, mp4, and wav files into a more immersive 3D experience.',
+      outcome: 'Combines media playback with interactive visuals and motion.',
       tags: ['Three.js', 'Audio', 'Creative UI'],
       image: ampImage,
       repository: 'https://github.com/arand013/VisualAmp',
@@ -135,7 +95,8 @@ export const projects = {
     },
     {
       title: 'Shuffle',
-      summary: 'A MERN app for discovering and saving music',
+      summary: 'A MERN application centered on discovering music and saving favorites in one place.',
+      outcome: 'Explores full-stack product flow around search, discovery, and saved content.',
       tags: ['MERN', 'Discovery', 'Full stack'],
       image: shuffleImage,
       repository: 'https://github.com/arand013/Music-Finder',
@@ -143,7 +104,8 @@ export const projects = {
     },
     {
       title: 'New Gen Mechanic',
-      summary: 'An MVC app, designed for a business owner looking to reach an online audience to expand his growing business',
+      summary: 'An MVC-based business site designed to help a growing mechanic brand reach a wider online audience.',
+      outcome: 'Shows how practical web presence can support local business growth.',
       tags: ['MVC', 'Business site', 'Brand'],
       image: autoImage,
       repository: 'https://github.com/arand013/Auto-Technician-project-2',
@@ -151,7 +113,8 @@ export const projects = {
     },
     {
       title: 'Weather Dashboard',
-      summary: 'An html, css and server side api webpage, that will generate weekly weather reports for cities across the world',
+      summary: 'A weather application that uses server-side APIs to generate weekly forecasts for cities around the world.',
+      outcome: 'Focuses on pulling external data into a fast, readable interface.',
       tags: ['API', 'JavaScript', 'Forecasts'],
       image: weatherImage,
       repository: 'https://github.com/arand013/Weather-Dashboard',
@@ -159,7 +122,8 @@ export const projects = {
     },
     {
       title: 'The Tech Spot',
-      summary: 'An MVC app, created for a blogging and sharing post online',
+      summary: 'An MVC blog platform built for writing, reading, and sharing posts online.',
+      outcome: 'Explores content publishing through a structured MVC workflow.',
       tags: ['MVC', 'Blog', 'Content'],
       image: techImage,
       repository: 'https://github.com/arand013/The-Tech-Spot',
@@ -167,7 +131,8 @@ export const projects = {
     },
     {
       title: 'Employee Tracker System',
-      summary: "An database template application, designed to add, update or delete a business's employee",
+      summary: "A database-driven CLI application for adding, updating, and managing a business's employees.",
+      outcome: 'Built around clear operational workflows and command-line management.',
       tags: ['Database', 'CLI', 'Operations'],
       image: trackerImage,
       repository: 'https://github.com/arand013/employee-tracker-system',
@@ -175,7 +140,8 @@ export const projects = {
     },
     {
       title: 'Password Generator',
-      summary: 'A javascript built app created to generate random long term passwords',
+      summary: 'A JavaScript utility for generating stronger random passwords based on user-selected rules.',
+      outcome: 'Turns a simple security task into a focused utility experience.',
       tags: ['JavaScript', 'Utility', 'Security'],
       image: passImage,
       repository: 'https://github.com/arand013/PasswordGenerator',
@@ -183,7 +149,8 @@ export const projects = {
     },
     {
       title: 'Three JS Spiral',
-      summary: 'A 3D Space Animation using Three.js',
+      summary: 'A Three.js experiment focused on 3D space, motion, and immersive visual atmosphere.',
+      outcome: 'Explores creative coding through animation and depth.',
       tags: ['Three.js', '3D', 'Creative coding'],
       image: spiralImage,
       repository: 'https://github.com/arand013/three-js-spiral',
@@ -193,41 +160,47 @@ export const projects = {
 };
 
 export const resume = {
-  eyebrow: 'JOURNEY',
-  title: 'College and research milestones',
+  eyebrow: '',
+  title: 'JOURNEY',
   resumeUrl: 'https://drive.google.com/file/d/1EUYuh-DPsu7Ny00Wg-OgkqRAz87_eKIm/view?usp=sharing',
   story:
-    'Learning to increase programming technology skills such as React, Javascript, HTML and CSS, by building user responsive web applications.',
+    'My path into tech has been built step by step through education, personal projects, internship experiences, research, and collaboration. This steady commitment is what continues to move me forward!',
   timeline: [
     {
       period: '2017 - 2018',
-      title: 'Associate Program',
+      title: 'Academic Start',
       detail: 'California State University San Marcos',
+      summary: 'This is where the longer-term path began to take shape.',
     },
     {
       period: '2020',
-      title: 'A.S., Economics',
+      title: 'A.S. in Economics',
       detail: 'Chaffey Community College',
+      summary: 'Built a stronger analytical foundation through economics.',
     },
     {
       period: '2021',
-      title: 'Certificate, Full Stack Web Development',
+      title: 'Full Stack Web Development Certificate',
       detail: 'University of California Los Angeles',
+      summary: 'Turned technical interest into hands-on web development work.',
     },
     {
-      period: 'In Progress',
-      title: 'B.S., Economics',
+      period: '2025',
+      title: 'B.S. in Economics',
       detail: 'Florida Atlantic University',
+      summary: 'Continued building range through university study and long-term growth.',
     },
     {
-      period: 'Current',
-      title: 'Minor in Computer Science / Undergraduate Student',
+      period: '2022 - 2025',
+      title: 'Computer Science Minor / Undergraduate Student',
       detail: 'Department of Economics and Department of Electrical Engineering and Computer Science',
+      summary: 'Bringing technical depth closer to the center of my academic path.',
     },
     {
       period: '2024 - 2025',
       title: 'Undergraduate Researcher of the Year',
       detail: 'College of Business, Allen E. Smith Awardee',
+      summary: 'Recognition for the consistency and discipline behind the work.',
     },
   ],
   research: [
@@ -237,11 +210,11 @@ export const resume = {
   ],
   categories: [
     {
-      title: 'Technical Growth',
+      title: 'What I Build With',
       items: ['React', 'Javascript', 'HTML', 'CSS', 'Responsive web applications'],
     },
     {
-      title: 'Education Path',
+      title: 'What Shapes My Approach',
       items: ['Economics', 'Computer Science', 'Full Stack Web Development', 'Undergraduate research'],
     },
   ],
@@ -249,7 +222,8 @@ export const resume = {
 
 export const contact = {
   eyebrow: 'CONTACT',
-  title: 'Contact Me',
+  title: "Let's connect",
+  copy: "I'm open to conversations about growth, research, and building thoughtful digital experiences.",
   email: 'Arandaresume23@gmail.com',
   linkedin: 'https://linkedin.com/in/alexander-aranda1',
   github: 'https://github.com/arand013',
